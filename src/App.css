@@ -1,0 +1,39 @@
+.App {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  height: 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+}
+
+.padding-top {
+  height: 50%;
+  background: #ccc;
+}
+
+textarea {
+  padding: 30px;
+  line-height: 1.5;
+  width: 100vw;
+  height: 10000px;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
